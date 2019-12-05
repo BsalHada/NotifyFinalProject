@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.NotifyInformation.SplashActivity"
+    android:background="#12c2e9"
+   >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:layout_width="123dp"
+            android:layout_height="63dp"
+            android:layout_gravity="center"
+            android:color="@color/lightBlue"/>
+
+        <ImageView
+            android:id="@+id/logo_photo"
+            android:layout_width="193dp"
+            android:layout_height="182dp"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="24dp"
+            android:src="@drawable/ic_photo_logo"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Notify,an Information Provider"
+            android:textAlignment="center"
+            android:textColor="@color/cardColor"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>
